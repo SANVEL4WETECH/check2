@@ -1,0 +1,331 @@
+
+
+
+
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  background-color: black;
+}
+
+h1 {
+
+  color: #66BFBF;
+
+
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #CCD6A6;
+}
+
+p {
+
+  line-height: 2;
+  color: #808080;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+}
+
+li {
+
+
+  line-height: 2;
+}
+
+
+
+.top-container {
+  text-align: center;
+
+  background-image: url(../images/bgimg.jpg);
+  background-size: cover;
+  background-size: 100%;
+}
+
+.myname {
+  color: white;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px black;
+}
+
+.myaim {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px black;
+}
+
+.about-me {
+
+}
+
+.man-img {
+  max-width: 70%;
+
+  margin-left: 2.7rem;
+  margin-top: 7rem;
+}
+
+@media (max-width: 40em){
+
+.man-img{
+  width: 130%;
+}
+
+}
+
+
+
+
+.about-h2 {
+
+}
+
+.type-writing {
+  color: #11999E;
+}
+
+.type-writing:hover {
+  color: red;
+}
+
+.skill-topic {
+  text-align: center;
+  margin-top: 3rem 0;
+}
+
+.skill-row {
+  border-radius: 20px;
+
+  background-color: #16213E;
+}
+
+.skill-row:hover {
+  box-shadow: 3px 6px 7px 7px #A5F1E9;
+}
+
+.topics {
+  margin-top: 10px;
+}
+
+.udemy-logo {
+  width: 67%;
+}
+
+.certificate {
+
+
+}
+
+.certificate-content {
+
+
+  background-color: #12141c;
+
+  border-radius: 27px;
+}
+
+.certificate-content:hover {
+  border-top: 8px solid #CCD6A6;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.bootcamp {
+  color: white;
+}
+
+.project-section {
+
+}
+
+.project-header {
+
+}
+
+.project-heading {
+  color: #66BFBF;
+
+}
+
+.project {
+  background-color: #12141c;
+  border-radius: 30px;
+  padding: 2rem 0;
+
+
+
+
+
+}
+
+.project:hover {
+  border-top: 8px solid #CCD6A6;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.project:hover .project-heading {
+  color: #CCD6A6;
+}
+
+.arrange {
+
+
+
+
+}
+
+.motivation-header {
+
+}
+
+.never-logo {
+
+  border-radius: 60px;
+  padding: 3rem 0;
+}
+
+.quote {
+
+
+
+
+}
+
+.contact-header {
+
+}
+
+.contact-form {
+  border-radius: 15px;
+
+
+  background-image: -webkit-linear-gradient(65deg, #12141c 50%, #2C3333 50%);
+}
+
+input {
+  border-radius: 16px;
+  color: black;
+  background-color: #CCD6A6;
+
+  border: none;
+
+
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+textarea {
+  border-radius: 16px;
+  color: black;
+  background-color: #CCD6A6;
+
+  border: none;
+  padding: 12px;
+
+
+  font-weight: 600;
+}
+
+.center {
+
+}
+
+.footer {
+  background-color: #12141c;
+
+}
+
+.social-media i {
+
+
+}
+
+.footer-details {
+  color: white;
+
+}
+
+.footer-details:hover {
+  color: yellow;
+}
+
+.footer-flex {
+
+
+
+
+
+}
+
+.copy-right {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC2AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC2AD);
+  text-decoration: none;
+}
